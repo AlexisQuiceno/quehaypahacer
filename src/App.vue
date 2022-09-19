@@ -2,15 +2,23 @@
   <nav>
    <HelloWorld/>
   </nav>
+  
   <router-view/>
+  <footer>
+    <FooterComponet/>
+  </footer>
+
 </template>
 
 <script>
  import HelloWorld from '@/components/HelloWorld.vue'
+ import FooterComponet from '@/components/FooterComponet.vue'
+
  
   export default {
   components: {
     HelloWorld,
+    FooterComponet,
 }
 }
 </script>
