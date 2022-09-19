@@ -1,0 +1,7 @@
+/*
+grit, flex, todo lo que modifique el layaud 
+*/
+@import './_media-movil.scss';
+@media (min-width: 820px){
+    @import './_media-desktop.scss';
+}
